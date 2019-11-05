@@ -21,11 +21,11 @@ public class ex_6
 //            System.out.print(item+" vet \n");
 //            
 //        }
-        int somador = 0;
+        int somador = 1;
         for (int i = 0; i < vet.length; i++) 
         {
-            System.out.println(vet[i]+"v");
-          
+            System.out.println(vet[i]);
+            somador = somador*vet[i];
         }
         
         System.out.println("somador: "+somador);
