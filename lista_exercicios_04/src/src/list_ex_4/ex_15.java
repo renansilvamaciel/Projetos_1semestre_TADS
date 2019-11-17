@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package list_ex_4;
 
 
@@ -54,7 +49,7 @@ public class ex_15
     
     static int [] test2 (int [] vetA)
     {
-        int aux=0;
+        int aux;
         for (int i = 0; i < vetA.length; i++) 
             {
                 if (vetA[i]>vetA[i+1])
@@ -67,15 +62,14 @@ public class ex_15
                 
                 
             }
-        
+        return vetA;
     }
     
     
     public static void main(String[] args) 
     {
-       int t = 
+       int t = ex_1.tamanho();
        int [] vetA = ex_1.criaVetor(t);
-       int [] vetB = ex_1.criaVetor(t);
        vetA = ex_1.preencheVet(vetA);
         teste(vetA);
         //imprimirvetOrdenado(vetA, vetB);
