@@ -7,7 +7,8 @@ package list_ex_4;
  */
 public class ex_15 
 {
-    
+    //metedo de ordenacao da bolha 
+   
     static void vetbangucado (int [] vetA)
     {
         for(int item :vetA)
@@ -28,7 +29,12 @@ public class ex_15
         System.out.println(" \n");
     }
 
-    static int [] vetorCrescente (int [] vetA)
+//    para analisar eu testo o valor da posicao atual do meu vetor com a, a proxima posicao,
+//    se o valor da minha proxima posicao é menor que o atual, eu armazeno o valor atual em uma 
+//    variavel aux e coloco a variavel da proxima posicao na posicao att, e armazeno o valor que está 
+//    na variavel att, na proxima posicao. é chamado do metodo de ordenacao da bolha. 
+    
+    static int [] vetorCrescente (int [] vetA)  
     {
         int aux;
         for (int j = 0; j < vetA.length; j++) 
