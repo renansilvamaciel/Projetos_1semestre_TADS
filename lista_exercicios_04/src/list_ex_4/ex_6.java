@@ -16,11 +16,6 @@ public class ex_6
     
     static void imprimirVetor (int vet [] )
     {
-//        for (int item : vet) 
-//        {
-//            System.out.print(item+" vet \n");
-//            
-//        }
         int somador = 1;
         for (int i = 0; i < vet.length; i++) 
         {

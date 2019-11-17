@@ -50,12 +50,17 @@ public class ex_1
         {
             System.out.print(item+" ");
         }
+        
+        System.out.println("   ");
     }
     public static void main(String[] args) 
     {
         int t = tamanho();
         int vet [] = criaVetor(t);
+        int vetB [] = criaVetor(t);
+        vetB = preencheVet(vetB);
         vet = preencheVet(vet);
         imprimirVetor(vet);
+        imprimirVetor(vetB);
     }
 }
