@@ -20,7 +20,6 @@ public class ex_16 // quase pronto falta fazer gabiarra.
                     {
                         if (vetA[i]%2==0)
                             {
-                                System.out.println("oi");
                                aux = vetA[j];
                                 vetA[j] = vetA[i];
                                 vetA[i] = aux;
@@ -51,7 +50,6 @@ public class ex_16 // quase pronto falta fazer gabiarra.
         imprimirTest(vetA);
         vetA = vetorOrdenadoPar(vetA);
         ex_1.imprimirVetor(vetA);
-        
         
     }
 }
