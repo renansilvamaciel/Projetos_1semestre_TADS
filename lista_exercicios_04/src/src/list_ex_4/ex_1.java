@@ -57,10 +57,8 @@ public class ex_1
     {
         int t = tamanho();
         int vet [] = criaVetor(t);
-        int vetB [] = criaVetor(t);
-        vetB = preencheVet(vetB);
         vet = preencheVet(vet);
         imprimirVetor(vet);
-        imprimirVetor(vetB);
+        
     }
 }
