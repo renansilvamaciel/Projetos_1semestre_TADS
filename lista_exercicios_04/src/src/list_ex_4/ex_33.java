@@ -44,10 +44,6 @@ public class ex_33
     
     
     
-    
-    
-    
-    
     public static void main(String[] args) 
     {
        int linha = ex_22.tamanhoMatriz();
