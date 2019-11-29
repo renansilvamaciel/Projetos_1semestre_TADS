@@ -43,5 +43,5 @@ public class ex_42
 
 
 
-// ps: caros professores, Leonildo e Fernando espero ve-los apenas no PI 4. foi
+// ps: caros professores, Leonildo e Fernando espero ve-los no PI 4. foi
 // grande honra aprender com voces. grande abraco. 
