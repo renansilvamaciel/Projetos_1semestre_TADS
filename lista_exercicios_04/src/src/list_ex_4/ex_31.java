@@ -19,9 +19,9 @@ public class ex_31
         Random aleatorio = new Random();
        
         
-        for (int i = 0; i < mat.length; i++) {
+        for (int i = 0; i < mat[i].length; i++) {
             
-            for (int j = 0; j < mat[i].length; j++) {
+            for (int j = 0; j < mat.length; j++) {
               mat [j][i]  = aleatorio.nextInt(60)+10;  
             }
         }
@@ -31,20 +31,22 @@ public class ex_31
     
         static void imprimirVet(int [] [] mat,int [] vet)
         {
-          int somador = 0;
+          int somador;
+          int contV=0;
             
-            for (int i = 0; i < mat.length; i++) {
+            for (int i = 0; i < mat[i].length; i++) {
                 somador=0;
                 
-                System.out.print("{");
-                for (int j = 0; j < mat[i].length; j++) {
-                    System.out.print(mat[i][j]+" ");
+               
+                for (int j = 0; j < mat.length; j++) {
+                    
                     
                     somador = somador + mat [j][i];
                 }
-                System.out.println("}");
+               
                 
-                vet[i]= somador;
+                vet[contV]= somador;
+                contV++;
             }
             System.out.println("\n");
             System.out.println("a soma dos itens de cada coluna: \n");
@@ -54,6 +56,17 @@ public class ex_31
             System.out.println("\n");
         }
 
+        
+        static void imprimiMatOriginal (int [] [] mat)
+        {
+            for (int i = 0; i < mat.length; i++) {
+                System.out.print("{");
+                for (int j = 0; j < mat[i].length; j++) {
+                    System.out.print(mat[i][j]+" ");
+                }
+                System.out.println("}");
+            }
+        }
 
     public static void main(String[] args) {
         
@@ -62,10 +75,11 @@ public class ex_31
         
         int [] vet = ex_1.criaVetor(coluna);
         
-        
         int [] [] mat = ex_22.criarMatriz(linha, coluna);
         
         mat = preencheMat(mat);
+        
+        imprimiMatOriginal(mat);
         
         imprimirVet(mat,vet);
         

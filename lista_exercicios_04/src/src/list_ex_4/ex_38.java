@@ -31,7 +31,7 @@ public class ex_38
             for (int i = 0; i < mat.length; i++) {
                 System.out.print("{");
                 for (int j = 0; j < mat[i].length; j++) {
-                    if (i>j)
+                    if (j>i)
                     {
                         System.out.print(mat[i][j]+" ");
                     }

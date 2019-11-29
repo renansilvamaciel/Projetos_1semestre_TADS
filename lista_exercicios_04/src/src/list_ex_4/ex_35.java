@@ -8,8 +8,8 @@ public class ex_35
 {
     static void imprimir (int [] [] mat)
     {
-        int cont =0,somador=0;
-        double media=0;
+        int cont =0;
+        double media,somador=0;
         for (int i = 0; i < mat.length; i++) {
             System.out.print("{");
             for (int j = 0; j < mat[i].length; j++) {

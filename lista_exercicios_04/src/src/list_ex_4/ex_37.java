@@ -18,19 +18,19 @@ public class ex_37
         int aux =0;
        
         
-        for (int i = 0; i < mat.length; i++) {
-            for (int j = 0; j < mat[i].length; j++) {
-                for (int k = 0; k < mat.length; k++) {
-                    aux=aux+mat[k][j];
-                    
-                }
-                if (aux==0)
+        for (int i = 0; i < mat[i].length; i++) 
+        {
+           aux=0;
+            for (int j = 0; j < mat.length; j++) 
+            {
+               
+                    aux=aux+mat[j][i];
+            }
+            
+             if (aux==0)
                     {
                         cont++;
                     }
-            }
-            
-            
             
         }
         
@@ -39,35 +39,31 @@ public class ex_37
     
     static void imprimirNulo (int [] [] mat )
     {
-        int auxLinha=0,auxColuna=0,contLinhas = 0,contColunas=0;
+        int auxLinha=0,contLinhas = 0;
         
         
         for (int i = 0; i < mat.length; i++) 
         {
             auxLinha=0;
-            auxColuna=0;
             
                     for (int j = 0; j < mat[i].length; j++) 
                     {
                         auxLinha = auxLinha+mat[i][j];
-                        //auxColuna = auxColuna+mat[i][i];
+                       
 
                     }
         if (auxLinha == 0)
            {
                contLinhas++;
            }
-        if (auxColuna == 0)
-           {
-               contColunas++;
-           }
+        
              
         }
    
         
-        System.out.println("temos "+contLinhas+" linhas nulas na matriz");
+         System.out.println("numeros de linhas nulas: "+contLinhas);
         
-        //System.out.println("temos "+contColunas+" colunas nulas na matriz");
+        
     }
     
     
@@ -85,13 +81,6 @@ public class ex_37
         System.out.println("\n ");
         
         ex_36.imprimirMat(mat);
-        
-        
-                
-        
-        
-        
-        
     }
     
 }

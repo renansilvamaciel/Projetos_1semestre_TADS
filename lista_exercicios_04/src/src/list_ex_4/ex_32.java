@@ -29,7 +29,7 @@ public class ex_32
     static void imprimirVet(int [] [] mat,int [] vet)
         {
           int somador;
-            int cont = 0;
+            
             
             for (int i = 0; i < mat.length; i++) 
             {
@@ -43,13 +43,13 @@ public class ex_32
                                 {
                                     for (int k = 0; k < mat.length; k++) 
                                     {
-                                        somador = somador + mat [k][i];
+                                        somador = somador + mat [k][j];
                                         
                                         
                                     }
                                     
-                                    vet[i]=somador;
-                                    
+                                    vet[j]=somador;
+                                   
                                 }
                             else {
                                 vet[j] = 0;
@@ -63,7 +63,7 @@ public class ex_32
             }
             System.out.println("\n");
             System.out.println("a soma dos itens de cada coluna de posicao impar: \n");
-            for (int i = 0; i < vet.length; i++) {
+            for (int i = 0; i < mat[i].length; i++) {
                 System.out.print("coluna "+(i+1)+" = "+vet[i]+", ");
             }
             System.out.println("\n");
@@ -79,7 +79,7 @@ public class ex_32
         
         //int tamanhoVet = verificaQtnImpar(coluna);
         
-        int [] vet = ex_1.criaVetor(coluna);
+        int [] vet = ex_1.criaVetor(linha);
         
         int mat [] [] = ex_22.criarMatriz(linha, coluna);
         

@@ -22,14 +22,14 @@ public class ex_9
         
         for(int item : vetA)
         {
-            System.out.print("{"+item+"}\n");
+            System.out.print("{"+item+"} ");
         }
         System.out.println(" ");
         for(int item : vetB)
         {
-            System.out.print("{"+item+"}\n");
+            System.out.print("{"+item+"} ");
         }
-        
+        System.out.println("\n");
         
         System.out.println("O produto dos elementos dos dois vetores é: "+somador);
     }

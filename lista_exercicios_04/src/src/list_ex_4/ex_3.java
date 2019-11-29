@@ -1,7 +1,5 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ *Dado um vetor de números inteiros, fazer um programa que imprima o maior elemento do vetor.
  */
 package list_ex_4;
 import list_ex_4.ex_1;

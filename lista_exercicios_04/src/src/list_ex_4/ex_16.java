@@ -31,6 +31,18 @@ public class ex_16 // quase pronto falta fazer gabiarra.
     }
     
     
+    
+    static void imprimirVetORdenado (int [] vetA)
+    {
+        System.out.println("vetor ordenado: ");
+        int k = vetA.length-1;
+        for (int i = 0; i < vetA.length; i++) 
+        {
+            System.out.print (vetA[k]+" ");
+            k--;
+        }
+    }
+    
     static void imprimirTest (int [] vetA)
     {
             System.out.println(" vetor baguncado : \n");
@@ -49,7 +61,7 @@ public class ex_16 // quase pronto falta fazer gabiarra.
         vetA = ex_1.preencheVet(vetA);
         imprimirTest(vetA);
         vetA = vetorOrdenadoPar(vetA);
-        ex_1.imprimirVetor(vetA);
+        imprimirVetORdenado(vetA);
         
     }
 }

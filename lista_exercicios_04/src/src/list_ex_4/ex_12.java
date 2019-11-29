@@ -48,8 +48,7 @@ public class ex_12
             mediaA = somadorA/vetA.length;
             mediaB = somadorB/vetB.length;
             
-            System.out.println("media A: "+mediaA);
-            System.out.println("media B: "+mediaB);
+           
        
             if (mediaA < mediaB)
                     {

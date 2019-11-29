@@ -11,16 +11,14 @@ public class ex_10
         double somador = 0.0;
        for (int i = 0; i < vet.length; i++) 
        {
-           System.out.printf("vettor: %.2f\n",vet[i]);
            double vf = vet[i]%2.0;
            if (vf<=1.99)
            {
-               System.out.println(vet[i]);
                somador = somador + (numR*vet[i]);
            }
        }
        
-       System.out.println("o produto dos elementos do vetor pelo numero real é: "+somador);
+       System.out.printf("o produto dos elementos do vetor pelo numero real é: %.2f\n",somador);
     }
     
     public static void main(String[] args) 

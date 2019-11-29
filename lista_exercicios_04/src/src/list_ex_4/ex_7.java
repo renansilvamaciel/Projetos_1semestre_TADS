@@ -1,8 +1,5 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+//7. Dado um vetor de números inteiros e um número inteiro, fazer um programa que multiplique todos os
+//elementos do vetor pelo número real dado e imprima o resultado.
 package list_ex_4;
 
 import static list_ex_4.ex_1.input;

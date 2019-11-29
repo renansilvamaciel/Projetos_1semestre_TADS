@@ -23,7 +23,7 @@ public class ex_11
                 somador = somador+vet[i];  
            }
         }
-        double media = 0.0;
+        double media;
            
         media = somador/vet.length;
         System.out.printf("media: %.2f\n",media);
@@ -31,7 +31,7 @@ public class ex_11
          {
              if (item>media)
              {            
-                 System.out.printf("{%.2f}\n",item);
+                 System.out.printf("{%.2f} ",item);
              }
          }
     }

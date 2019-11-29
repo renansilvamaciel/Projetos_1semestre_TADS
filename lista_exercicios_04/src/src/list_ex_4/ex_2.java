@@ -1,7 +1,5 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ .Dado um vetor de números reais, fazer um programa que some todos os elementos do vetor e imprima o resultado.
  */
 package list_ex_4; 
 import java.util.Scanner;

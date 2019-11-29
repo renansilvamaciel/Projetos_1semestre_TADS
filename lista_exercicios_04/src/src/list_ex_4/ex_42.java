@@ -11,16 +11,16 @@ package list_ex_4;
  */
 public class ex_42 
 {
-        static void prodMaiorValor (int maiorValor_A, int mariorValor_B)
+        static void prodMaiorValor (int maiorValor_A, int maiorValor_B)
         {
             int prod;
             
-            prod = maiorValor_A*mariorValor_B;
+            prod = maiorValor_A*maiorValor_B;
             
             System.out.println("o produtor dos maiores valores das matrizes é: "+prod);
             
             System.out.println("mario valor A: "+maiorValor_A);
-            System.out.println("mario valor A: "+maiorValor_A);
+            System.out.println("mario valor B: "+maiorValor_B);
         }
         
         
@@ -37,19 +37,11 @@ public class ex_42
         int marioValor_A = ex_41.maiorValor(matA);
         int marioValor_B = ex_41.maiorValor(matB);
         
-            prodMaiorValor(marioValor_A, marioValor_B);
-            
-            
-            
-            
-            System.out.println("\n");
-             
-            ex_40.imprimiMatrizOriginal(matA);
-            System.out.println("\n5");
-            ex_40.imprimiMatrizOriginal(matB);
-            
-            
-            
-        
+            prodMaiorValor(marioValor_A, marioValor_B);  
     }
 }
+
+
+
+// ps: caros professores, Leonildo e Fernando espero ve-los apenas no PI 4. foi
+// grande honra aprender com voces. grande abraco. 

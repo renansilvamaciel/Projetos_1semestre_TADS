@@ -14,7 +14,7 @@ public class ex_22
     static int tamanhoMatriz ()
     {
             int tamanho;
-        System.out.println("informe o tamanho da matriz ");
+        System.out.println("informe o tamanho da matriz, linha e depois coluna:  ");
             tamanho = ex_1.input.nextInt();
          return tamanho;
     }

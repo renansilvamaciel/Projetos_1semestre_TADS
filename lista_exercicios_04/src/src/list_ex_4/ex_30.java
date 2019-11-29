@@ -51,5 +51,7 @@ public class ex_30
       
       int [] [] mat = ex_22.criarMatriz(linha, coluna);
       
+        imprimirmat(vet, mat);
+      
     }
 }
